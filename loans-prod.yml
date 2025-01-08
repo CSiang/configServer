@@ -2,7 +2,7 @@ build:
   version: "1.2"
 
 loans:
-  message: "Welcome to EazyBank loans related prod APIs "
+  message: "Welcome to EazyBank loans related production APIs "
   contactDetails:
     name: "John Lim - Service Owner"
     email: "johnlim@eazybank.com"
