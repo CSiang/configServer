@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs "
+  contactDetails:
+    name: "Amoth Ray - QA Lead"
+    email: "Amoth@eazybank.com"
+  onCallSupport:
+    - (666) 666-5678
+    - (666) 612-6789

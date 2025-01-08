@@ -1,0 +1,11 @@
+build:
+  version: "2.1"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "CS Lee - QA Tester"
+    email: "cslee@eazybank.com"
+  onCallSupport:
+    - (777) 789-5637
+    - (555) 788-2347
