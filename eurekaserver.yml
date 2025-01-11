@@ -1,0 +1,12 @@
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistrty: false # This is to fetch registry details from microservices, we do not want this so set to false. By default is true.
+    registerWithEureka: false # Instruct Eureka do not register with itself & do not expose your details into the registry of the Service Discovery.
+    serviceUrl:
+      # To set where the Eureka is going to expose its functionalities for other microservices to tap on
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
